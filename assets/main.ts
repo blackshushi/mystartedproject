@@ -1,5 +1,5 @@
 const {ccclass, property} = cc._decorator;
-var a:number;
+var result:number;
 
 @ccclass
 export default class NewClass extends cc.Component {
@@ -10,14 +10,13 @@ export default class NewClass extends cc.Component {
     @property(cc.Button)
     Button: cc.Button = null;
 
-    @property(cc.Sprite)
-    redball: cc.Sprite = null;
+    @property(cc.Prefab)
+    private redball: cc.Prefab = null;
 
-    @property(cc.Sprite)
-    blueball: cc.Sprite = null;
+    @property(cc.Prefab)
+    private blueball: cc.Prefab = null;
 
-    @property(cc.Sprite)
-    result: cc.Sprite;
+    private ball: cc.Node = null;
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -26,21 +25,29 @@ export default class NewClass extends cc.Component {
     start () {
     }
 
-    onButtonClick () {
+    private onButtonClick () {
         this.label.string = "Harlo"
       
-        function getRandomInt(min: 0, max: 100): number {  
-            var Range = max - min;  
-            var Rand = Math.random();  
-            return(a=min + Math.round(Rand * Range));  
-        }
-        if (a<=30) {
-            this.result = this.redball
+        if(this.ball){
+            this.ball.destroy;
+        } 
+
+        const result = this.getRandomInt();
+        if (result <= 30) {
+            this.ball = cc.instantiate(this.redball);
         } else {
-            this.result = this.blueball
+            this.ball = cc.instantiate(this.blueball);
         }
-        
+    this.ball.parent = this.node.parent;    
     }
+
+    private getRandomInt(min=0, max=100): number {  
+        var Range = max - min;  
+        var Rand = Math.random();  
+        return( result =min + Math.round(Rand * Range));  
+    }
+
+  
     // update (dt) {}
 }
     
