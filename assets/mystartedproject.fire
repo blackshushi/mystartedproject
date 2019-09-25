@@ -862,6 +862,12 @@
     "greenballprefab": {
       "__uuid__": "15f7f814-1ea4-4651-a481-284034f83500"
     },
+    "ball": null,
+    "Position": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
     "_id": "63wai/IvBPFZe4aIja5sTt"
   },
   {
