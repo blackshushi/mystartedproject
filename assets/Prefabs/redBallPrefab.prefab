@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "redball",
+    "_name": "redBallPrefab",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -22,39 +22,42 @@
     "_components": [
       {
         "__id__": 2
+      },
+      {
+        "__id__": 3
       }
     ],
     "_prefab": {
-      "__id__": 3
+      "__id__": 4
     },
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 201,
-      "g": 13,
-      "b": 13,
+      "r": 221,
+      "g": 30,
+      "b": 30,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 30,
-      "height": 30
+      "width": 40,
+      "height": 40
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": 0.5,
+      "y": 0.5
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 200,
+      "x": -783.576,
+      "y": -629.838,
       "z": 0
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1.5,
-      "y": 1.5,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_eulerAngles": {
@@ -104,14 +107,25 @@
     "_id": ""
   },
   {
+    "__type__": "a59a0SG/IdJcJHPXVyQ+ThT",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "defaultSpeed": 100,
+    "_id": ""
+  },
+  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "bfc64b3a-cff8-40c2-bfee-42a92cd78fd8"
+      "__uuid__": "6ba168fb-06ad-4439-8c9a-5733f1b9cbfa"
     },
-    "fileId": "c69c23g2tGYZ2bNX3vOHyI",
+    "fileId": "2fXERUivVLbrJTKwHQ3Vtq",
     "sync": false
   }
 ]

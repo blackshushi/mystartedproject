@@ -853,17 +853,17 @@
     "label": {
       "__id__": 21
     },
-    "Button": {
+    "buttonNode": {
       "__id__": 17
     },
-    "redballprefab": {
-      "__uuid__": "bfc64b3a-cff8-40c2-bfee-42a92cd78fd8"
+    "redBallPrefab": {
+      "__uuid__": "6ba168fb-06ad-4439-8c9a-5733f1b9cbfa"
     },
-    "greenballprefab": {
-      "__uuid__": "15f7f814-1ea4-4651-a481-284034f83500"
+    "greenBallPrefab": {
+      "__uuid__": "91d9d0ce-7714-402e-9ed2-78178c0a67a0"
     },
-    "ball": null,
-    "Position": {
+    "ballNode": null,
+    "position": {
       "__type__": "cc.Vec2",
       "x": 0,
       "y": 0

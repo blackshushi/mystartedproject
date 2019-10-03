@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "greenball",
+    "_name": "greenBallPrefab",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -22,39 +22,42 @@
     "_components": [
       {
         "__id__": 2
+      },
+      {
+        "__id__": 3
       }
     ],
     "_prefab": {
-      "__id__": 3
+      "__id__": 4
     },
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 72,
-      "g": 236,
-      "b": 20,
+      "r": 6,
+      "g": 231,
+      "b": 69,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 30,
-      "height": 30
+      "width": 40,
+      "height": 40
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": 0.5,
+      "y": 0.5
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 200,
+      "x": -776.324,
+      "y": -526.797,
       "z": 0
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1.5,
-      "y": 1.5,
+      "x": 1,
+      "y": 1,
       "z": 1
     },
     "_eulerAngles": {
@@ -104,14 +107,25 @@
     "_id": ""
   },
   {
+    "__type__": "5dd71jkjVZEv7W3xoy15KF0",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "defaultSpeed": 100,
+    "_id": ""
+  },
+  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "15f7f814-1ea4-4651-a481-284034f83500"
+      "__uuid__": "91d9d0ce-7714-402e-9ed2-78178c0a67a0"
     },
-    "fileId": "63wckBr5xAB7Xxc6dco/9N",
+    "fileId": "33Q45fUixHrKtq8i6fdK2t",
     "sync": false
   }
 ]
